@@ -27,9 +27,9 @@ function enviar_email($veiculo, $anexos = array()) {
     $obj_email->Port = 587;
     $obj_email->SMTPSecure = "tls";
     $obj_email->SMTPAuth = TRUE;
-    $obj_email->Username = "allansantoscaetano@gmail.com";
-    $obj_email->Password = "22917553478";
-    $obj_email->setFrom("allansantoscaetano@gmail.com", "Avisador de Veículos");
+    $obj_email->Username = "email@gmail.com";
+    $obj_email->Password = "senha";
+    $obj_email->setFrom("email@gmail.com", "Avisador de Veículos");
     $obj_email->addAddress(EMAIL_NOTIFICACAO);
     $obj_email->CharSet = "UTF-8";
     $obj_email->Subject = "Veículo: {$veiculo['placa']}";

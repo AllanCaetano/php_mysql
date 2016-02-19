@@ -84,7 +84,7 @@ function enviar_email($tarefa, $anexos = array()) {
     $obj_email->SMTPAuth = TRUE;
     $obj_email->Username = "email@gmail.com";
     $obj_email->Password = "senha";
-    $obj_email->setFrom("email@gprovedor.com", "Avisador de Tarefas");
+    $obj_email->setFrom("email@gmail.com", "Avisador de Tarefas");
     $obj_email->addAddress(EMAIL_NOTIFICACAO);
     $obj_email->CharSet = "UTF-8";
     $obj_email->Subject = "Aviso da tarefa: {$tarefa['nome']}";

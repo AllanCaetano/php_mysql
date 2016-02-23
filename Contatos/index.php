@@ -1,11 +1,12 @@
-<?php session_start();
+<?php 
+session_start();
 
- include 'banco.php';
- include 'ajudantes.php';
- include 'classes/Contatos.php';
- 
+include 'banco.php';
+include 'ajudantes.php';
+include 'classes/Contatos.php';
+
 $contatos = new Contatos($mysqli);
- 
+
 $exibir_tabela = TRUE;
 $tem_erros = FALSE;
 $erros_validacao = array();

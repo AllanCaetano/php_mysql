@@ -1,2 +1,2 @@
-      EXEMPLOS DE CÓDIGO DO LIVRO "Desenvolvimento Web com PHP e MySQL"
+      EXERCÍCIOS DO LIVRO "Desenvolvimento Web com PHP e MySQL"
       de Evaldo Junior Bento
